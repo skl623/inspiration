@@ -1,0 +1,592 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+.wrap {
+        width: 100%;
+        height: auto;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+header {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    
+   
+/*    background-color: antiquewhite;*/
+    
+
+}
+.inpp input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    position: absolute;
+    left: 78%;
+    top: 90px;
+    background: rgba(0,0,0,0);
+}
+.logo {
+    margin: 0 auto;
+}
+.logo img{
+    width: 160px;
+    height: 130px;  
+    line-height: 140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor:pointer;
+/*
+    float: left;  
+    margin-left: 200px;
+*/
+    
+}
+nav {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    font-weight: 700; 
+    
+}
+.change1 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    font-weight: 700;    
+}
+
+.menu1 {
+    list-style: none;
+   
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    
+    
+}
+.menu1 li {
+    cursor: pointer;
+    margin-right: 50px;
+    
+}
+.menu2 {
+    list-style: none;
+    height: 45px;
+    display: flex;
+    margin-left: 46%;  
+}
+.menu2 li {
+    cursor: pointer;
+    margin-left: 50px;
+    
+}
+/***********************************************/
+.change2 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    font-weight: 700;
+    
+}
+.chg1 {
+    list-style: none;
+   
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%; 
+}
+.chg1 li {
+    cursor: pointer;
+    margin-right: 80px;
+}
+.chg2 {
+    list-style: none;
+    height: 45px;
+    display: flex;
+    margin-left: 45%;  
+}
+.chg2 li {
+    cursor: pointer;
+    margin-left: 50px;
+}
+/***********************************************/
+#sec1 {
+    width: 100%;
+    height: 580px;
+    border-top: 2px solid black;    
+}
+.line {
+    width: 330px;
+    height: 4px;
+    background-color: black;
+    margin-left: 390px;
+    margin-top: 100px;
+    position: relative;
+}
+#sec1 h1 {
+    margin: 30px 0 30px 390px;
+    
+}
+.de {
+    display: flex;
+    font-size: 20px;
+}
+.de img {
+    width: 330px;
+    height: 410px;
+    margin-left: 390px;
+}
+.de p {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.txt_box {
+    
+    position: absolute;
+    left: 700px;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.txt1 {
+    margin-left: 80px;
+}
+.txt1 ul {
+    display: flex;
+    list-style: none;  
+}
+.txt1 ul li{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.txt2 {
+    margin-left: 150px;
+    
+
+    
+}
+.txt2 ul {
+    display: flex;
+    list-style: none;  
+}
+.txt2 ul li{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.wing_bar {
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 17px;
+    width: 65px;
+    height: 3px;
+    margin-bottom: 5px;
+}
+.wing {
+    position: absolute;
+    float: right;
+    width: 100px;
+    height: 180px;
+    border: 1px solid #797979;
+    background-color: #fff;
+    top: 300px;
+    left: 1550px;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+}
+.wing img {
+    width: 65px;
+    height: 95px;
+    margin-top:10px;
+ 
+}
+.top {
+    position: absolute;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #797979;
+    background-color: #fff;
+    top: 495px;
+    left: 1575px;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    color: black;
+    line-height: 45px;
+    
+}
+
+/***********************************************/
+#sec2 {
+    width: 100%;
+    height: 700px;
+    border-bottom: 1px solid black;
+}
+.date {
+    text-align:center;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+
+}
+#main > div.row > div > table > tbody > tr:nth-child(2) > td:nth-child(6){
+    background-color: #eee;
+}
+
+.time {
+    text-align: center;
+    width: 640px;
+    height: 450px;
+    font-size: 1.5rem;
+/*    font-weight: 700;*/
+    border: 1px solid black;
+}
+.ttt p{
+    
+    margin: 0 10px;
+}
+.ttt p:hover{
+    text-decoration: underline;
+}
+.time h1 {
+    margin-top: 80px;
+}
+.time p {
+    margin-top: 20px;
+}
+.text-center {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.jumbotron {
+  background: #fff;
+}
+.fa {
+  font-size: 10px;
+}
+table {
+   width: 450px;
+    height: 450px;
+}
+th {
+  text-align: center;
+    width: 50px;
+    
+
+}
+td {
+  width: 50px;
+  text-align: center;
+
+  font-size: 10px;
+}
+
+.hover {
+  background: #eee;
+}
+#about {
+  font-size: 10px;
+  position: absolute;
+  top: -35px;
+  right: 15px;
+}
+#about a {
+  text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    top: 10px;
+    left: 1360px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/***********************************************/
+#sec3 {
+    width: 100%;
+    height: auto;
+/*    border-bottom: 1px solid #e1e1e1;*/
+}
+
+.ac {
+    width: 1140px;
+    height: 4px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.sheet01 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto; 
+}
+.sheet01 h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+.sheet02 h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+.sheet03 h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+.sheet04 h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+
+.sheet02 {
+     width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.sheet03 {
+     width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+ 
+
+}
+.result input {
+    margin-top: 20px;
+    width: 800px;
+    height: 98px;
+    position: absolute;
+    left: 490px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.text_btn input {
+    width: 100px;
+    height: 100px;
+    border: none;
+    position: absolute;
+    left: 1310px;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.acc {
+    width: 1140px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.accc {
+    width: 1140px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left:380px;
+
+    
+}
+.sheet04 {
+     width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+ 
+
+}
+/*
+.two {
+    margin: 100px 10px 0 10px;
+    width: 250px;
+    height: 300px;
+    
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.two img {
+    width: 250px;
+    height: 300px;
+    transition: transform 0.3s linear;
+    
+}
+.two img:hover {
+    transform: scale(1.05);
+}
+*/
+
+/*
+bar {
+    width: 250px;
+    height: 4px;
+    background-color: #000;
+    margin: 20px 0 20px 10px;
+    
+}
+*/
+
+.label {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    line-height:40px;
+    justify-content: space-around;
+    margin: 0 auto; 
+    margin-top: 100px;
+    box-sizing: border-box;
+    
+    
+}
+.label p {
+   width: auto;
+    font-size: 1.25rem;
+    margin: 25px 40px;
+    cursor: pointer;
+    
+}
+.label p:hover {
+   width: auto;
+   cursor: pointer;
+    text-decoration: underline;
+}
+.lab01 h1:hover {
+    border-top: 2px solid black;
+}
+.lab02 h1:hover {
+    border-top: 2px solid black;
+}
+.lab03 h1:hover {
+    border-top: 2px solid black;
+}
+.lab04 h1:hover {
+    border-top: 2px solid black;
+}
+
+#chk {
+    display: none;
+}
+
+#tab01, #tab02, #tab03, #tab04 {
+    display: none;            
+        }
+#tab01:checked ~ .sheet01  {
+    display: block;
+}
+
+#tab01 ~ .sheet01  {
+    display: none;
+}
+#tab02 ~ .sheet02  {
+    display: none;  
+}
+#tab02:checked ~ .sheet02  {
+    display: block;
+}
+#tab03 ~ .sheet03  {
+    display: none;
+}
+#tab03:checked ~ .sheet03  {
+    display: block;
+}
+#tab04 ~ .sheet04  {
+    display: none;
+}
+#tab04:checked ~ .sheet04  {
+    display: block;
+}
+
+
+.import {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    border-top: 3px solid black;
+    margin-top: 200px;
+}
+.import h3 {
+    margin-left: 360px;
+    margin-right: 80px;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+    text-align: left;
+    
+}
+span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ft1 ul,.ft2 ul,.ft3 ul,.ft3_3 ul,.ft4 ul{
+    list-style: none;
+    font-weight: 700;
+    margin: 0 80px;
+    font-size: 16px;
+    margin-top: 50px;
+    
+}
+.ft1 ul li,.ft2 ul li,.ft3 ul li,.ft3_3 ul li {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.ft4 ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+.ft4 ul li a {
+    margin-right: 10px;
+}
+.ft4 a:active, .ft4 a:link, .ft4 a:visited {
+    color: #e1e1e1;
+    text-decoration: none;
+}
+.address {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #1c1c1c;
+    color: #e1e1e1;
+    
+    
+}
